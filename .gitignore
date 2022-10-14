@@ -131,3 +131,4 @@ keys.py
 to_run.ipynb
 test.ipynb
 test-jvsc-deb19eed-0688-4e9c-9a7e-449e191e93bf.ipynb
+data/*.txt
