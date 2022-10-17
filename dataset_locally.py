@@ -55,8 +55,8 @@ for file_no in file_list: #
   df_len_count = 0
   for ind in df_source_mr_file.index:
       df_len_count = df_len_count + 1
-      en_txt = g_translation_function_mr_en(df_source_mr_file['mr_txt'][ind])
-      hi_txt = g_translation_function_mr_hi(df_source_mr_file['mr_txt'][ind])
+      en_txt = g_translation_function_mr_en(str(df_source_mr_file['mr_txt'][ind]))
+      hi_txt = g_translation_function_mr_hi(str(df_source_mr_file['mr_txt'][ind]))
       cm_row = [df_source_mr_file['mr_txt'][ind],en_txt ,hi_txt]
 
       #randamize time to sleep

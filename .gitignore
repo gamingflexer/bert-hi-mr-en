@@ -134,3 +134,4 @@ test-jvsc-deb19eed-0688-4e9c-9a7e-449e191e93bf.ipynb
 data/*.txt
 done/*.csv
 data_done/*.txt
+log.txt
