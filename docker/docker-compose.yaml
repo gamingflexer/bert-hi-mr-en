@@ -1,0 +1,5 @@
+version: "3.7"
+services:
+  indic_ocr_api:
+    build:
+      context: ./
