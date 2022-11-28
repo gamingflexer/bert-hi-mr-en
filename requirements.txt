@@ -1,3 +1,4 @@
 deep-translator
 cassandra-driver
-gdown             
+gdown
+pandas
