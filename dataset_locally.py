@@ -60,7 +60,10 @@ for file_no in file_list:
         # writing the fields 
         csvwriter.writerow(fields_capt)
 
-    df_source_mr_file = pd.read_csv(file_to_open, delimiter = "\t",names=["mr_txt"])
+    try:
+      df_source_mr_file = pd.read_csv(file_to_open, delimiter = "\t",names=["mr_txt"])
+    except pd.errors.ParserError:
+      df_source_mr_file = pd.read_csv(file_to_open, header = None, delimiter = "\t",names=["mr_txt"], quoting=csv.QUOTE_NONE, encoding='utf-8')
     df_len = len(df_source_mr_file)
     df_len_count = 0
     for ind in df_source_mr_file.index:
