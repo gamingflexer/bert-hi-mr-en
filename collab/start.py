@@ -2,7 +2,7 @@ import sys
 
 book_no = sys.argv[1]
 
-link = "https://drive.google.com/drive/folders/1gR1IQALHlLmVU6erob4DyZoEZU-nl3Ac?usp=share_link"
+link = "https://drive.google.com/drive/folders/1p-4ghiHJq1W_HVdQMwsQ5EKLo0eydRhJ?usp=share_link"
 
 path_to_download_corpus = "/content/data"
 
